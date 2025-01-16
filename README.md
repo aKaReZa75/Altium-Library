@@ -121,26 +121,24 @@ The naming conventions are as follows:
 3. **Packaging Type**: e.g., `SMD` for surface-mount devices and `THT` for through-hole technology.
 4. **Value and Size**: For components with specific values, the value and size will also be included in the name.
 
-### Examples
-- **Surface-mount electrolytic capacitor, 1 µF, 25V**: 
-  ```markdown
-  Cap_Elec_SMD_1uF_25V
-  ```
+```plaintext
+📦 Component Examples
+├── Capacitors
+│   ├── Electrolytic Capacitors: 
+│       ├── Surface-mount (SMD)
+│           └── Cap_Elec_10u_25_SMD → 10µF, 25V SMD Electrolytic Capacitors
+├── Microcontrollers
+│   └── STM32F103C8T6: 
+│       └── IC_MCU_STM32F103C8T6 → 32bit ST Microcontroller, based on ARM Cortex-M3 core
+├── Transistors
+│   └── BJT Transistors
+│       ├── SMD
+│           └── Semi_BJT_2N2222_SMD → SMD Transistor 2N2222
+├── Resistors
+│   └── SMD Resistors
+│       └── Res_SMD_0805 → SMD Resistor package 0805
+```
 
-- **Microcontroller STM32F103C8T6**: 
-  ```markdown
-  IC_MCU_STM32F103C8T6
-  ```
-
-- **SMD Transistor 2N2222**: 
-  ```markdown
-  Semi_BJT_2N2222_SMD
-  ```
-
-- **SMD Resistor package 0805**: 
-  ```markdown
-  Res_SMD_0805
-  
 > **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results. This helps avoid potential conflicts or misunderstandings when interpreting underscores.
 
 The overall structure of the aKaReZa library is as
@@ -148,9 +146,7 @@ The overall structure of the aKaReZa library is as
 ```plaintext
 📦 aKaReZa Library Structure
 ├── Capacitors
-│   ├── Ceramic Capacitors: `Cap_Cer`
 │   ├── Electrolytic Capacitors: `Cap_Elec`
-│       ├── Cap_Elec_1u_25: `1µF, 25V Electrolytic Capacitor`
 │   ├── Bipolar Capacitors: `Cap_Bipolar`
 │   ├── MKT Capacitors: `Cap_MKT`
 │   ├── Multi-Layer Capacitors: `Cap_Multi`
