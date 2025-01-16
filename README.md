@@ -121,6 +121,10 @@ The naming conventions are as follows:
 3. **Packaging Type**: e.g., `SMD` for surface-mount devices and `THT` for through-hole technology.
 4. **Value and Size**: For components with specific values, the value and size will also be included in the name.
 
+> To search for the component name, use the Component section in the Panel in Altium.
+
+![Note0](Images/Note0.png)
+
 ```plaintext
 📦 Component Examples
 ├── Capacitors
@@ -139,7 +143,12 @@ The naming conventions are as follows:
 │       └── Res_SMD_0805 → SMD Resistor package 0805
 ```
 
-> **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results. This helps avoid potential conflicts or misunderstandings when interpreting underscores.
+![Note2](Images/Note2.png)
+
+> **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results.
+> When using underscores (`_`), you need to enter the exact name of the component as it appears in the library. However, with an asterisk (`*`), you can search for partial matches, and Altium will find and display all similar components based on the entered terms.
+
+![Note1](Images/Note1.png)
 
 The overall structure of the aKaReZa library is as
 
