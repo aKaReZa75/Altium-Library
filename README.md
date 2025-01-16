@@ -19,6 +19,12 @@ First, open **Git Bash** :
 -  **Right-click** inside the folder and select the option **"Open Git Bash here"** to open **Git Bash** in that directory.
 
 ![open Git Bash](Images/Step0.png)
+
+> Note: If you do not see the "Open Git Bash here" option, it means that Git is not installed on your system.
+> 
+>  You can download and install Git from [this link](https://git-scm.com/downloads).
+>  
+>  For a tutorial on how to install and use Git, check out [this video](https://youtu.be/BsykgHpmUt8).
   
 -  Once **Git Bash** is open, run the following command to clone the repository:
 
@@ -313,8 +319,12 @@ If you want to update or modify the library:
 
 ## 🛠️ License
 
-This project is licensed under the **MIT License**. Feel free to use it in your projects, but don't forget to attribute the source.
-
+This project is licensed under the GPL-3.0 License. This license grants you the freedom to use, modify, and distribute the project as long as you:
+- Credit the original authors: Give proper attribution to the original creators.
+- Disclose source code: If you distribute a modified version, you must make the source code available under the same GPL license.
+- Maintain the same license: When you distribute derivative works, they must be licensed under the GPL-3.0 too.
+- Feel free to use it in your projects, but make sure to comply with the terms of this license.
+  
 ---
 
 ## ⭐ Support Me
