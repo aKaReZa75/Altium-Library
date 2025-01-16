@@ -110,6 +110,120 @@ The library structure consists of the following files:
 
 ---
 
+## 🔍 Searching Components in the Library
+
+In this library, components are named using specific conventions to make searching and identifying them more efficient. 
+By following these structured naming conventions, users can quickly locate and understand each component within the library.
+
+The naming conventions are as follows:
+1. **Component Type**: For example, `Cap` for capacitors.
+2. **Subcategory**: e.g., `Elec` for electrolytic capacitors.
+3. **Packaging Type**: e.g., `SMD` for surface-mount devices and `THT` for through-hole technology.
+4. **Value and Size**: For components with specific values, the value and size will also be included in the name.
+
+### Examples
+- **Surface-mount electrolytic capacitor, 1 µF, 25V**: 
+  ```markdown
+  Cap_Elec_SMD_1uF_25V
+  ```
+
+- **Microcontroller STM32F103C8T6**: 
+  ```markdown
+  IC_MCU_STM32F103C8T6
+  ```
+
+- **SMD Transistor 2N2222**: 
+  ```markdown
+  Semi_BJT_2N2222_SMD
+  ```
+
+- **SMD Resistor package 0805**: 
+  ```markdown
+  Res_SMD_0805
+
+The overall structure of the aKaReZa library is as
+
+```plaintext
+📦 aKaReZa Library Structure
+├── Capacitors
+│   ├── Ceramic Capacitors: `Cap_Cer`
+│   ├── Electrolytic Capacitors: `Cap_Elec`
+│       ├── Cap_Elec_1u_25: `1µF, 25V Electrolytic Capacitor`
+│   ├── Bipolar Capacitors: `Cap_Bipolar`
+│   ├── MKT Capacitors: `Cap_MKT`
+│   ├── Multi-Layer Capacitors: `Cap_Multi`
+│   ├── Polyester Capacitors: `Cap_Poly`
+│   ├── Tantalum Capacitors: `Cap_Tantalum`
+│   └── Variable Capacitors: `Cap_Var`
+├── Resistors
+│   ├── THT Resistors: `Res_Value_THT`
+│   ├── SMD Resistors: `Res_Value_SMD`
+│   ├── Multi-Turn Resistors: `Res_Multi`
+│   ├── Network Resistors: `Res_Network`
+│   └── Potentiometer: `Res_Pot`
+├── Inductors
+│   ├── THT Inductors: `Ind_THT`
+│   └── SMD Inductors: `Ind_SMD`
+├── Semiconductors
+│   ├── Transistors
+│   │   ├── BJT Transistors: `Semi_BJT`
+│   │   └── Mosfet: `Semi_Mosfet`
+│   ├── Diodes
+│   │   ├── Generic Diodes: `Semi_Diode_STD`
+│   │   ├── Fast Diodes: `Semi_Diode_Fast`
+│   │   ├── Shottky Diodes: `Semi_Diode_Sch`
+│   │   ├── Zener Diodes: `Semi_Diode_Zener`
+│   │   ├── LED Diodes: `Semi_Diode_LED`
+│   │   ├── TVS Diodes: `Semi_Diode_TVS`
+│   │   ├── Diac: `Semi_Diode_Diac`
+│   │   └── Full Bridge Rectifier: `Semi_Diode_Bridge`
+│   ├── Thyristors
+│   │   ├── Thyristor: `Semi_SCR`
+│   │   └── Triac: `Semi_Triac`
+├── Integrated Circuits (ICs)
+│   ├── Microcontroller: `IC_MCU`
+│   ├── Logic IC: `IC_Logic`
+│   ├── Driver IC: `IC_Driver`
+│   ├── Converter IC: `IC_Converter`
+│   ├── Operational Amplifier: `IC_Opamp`
+│   └── Regulator: `IC_Reg`
+├── Switches and Relays
+│   ├── Push Button: `SW_PushButton`
+│   ├── On-off Switch: `SW_Power`
+│   ├── DIP Switches: `SW_THT`
+│   ├── Relays: `SW_Relay`
+│   └── Opto Coupler: `SW_Opto`
+├── Connectors
+│   ├── Arduino Connector: `Con_Arduino`
+│   ├── Audio Connector: `Con_Audio`
+│   ├── FPC Connector: `Con_FPC`
+│   ├── Female Pin Header Connector: `Con_FPH`
+│   ├── Male Pin Header Connector: `Con_MPH`
+│   ├── IDC Connector: `Con_IDC`
+│   ├── Portable Computer Connector: `Con_PC`
+│   ├── Power Connector: `Con_Power`
+│   ├── Programmer Connector: `Con_Prog`
+│   ├── RF Connector: `Con_RF`
+│   └── USB Connector: `Con_USB`
+├── Modules and Sensors
+│   ├── 7Segments: `ModSen_7Seg`
+│   ├── Communication Modules: `ModSen_Com`
+│   └── Display: `ModSen_LCD`
+└── Other Components
+    ├── Crystals: `Other_Elec_Xtal`
+    ├── Oscillators: `Other_Elec_Oscillator`
+    ├── Batteries: `Other_Elec_Battery`
+    ├── SMD Fuses: `Other_Elec_Fuse_SMD`
+    ├── THT Fuses: `Other_Elec_Fuse_THT`
+    ├── Cores: `Other_Core`
+    ├── Enclosure: `Other_Mech_ENC`
+    └── Heat Sink: `Other_Mech_HEATSINK`
+```
+
+By adhering to this convention, you can quickly locate any component while maintaining clarity and consistency in your designs.
+
+---
+
 ## 🔍 Component Parameters
 
 Each component in the library includes the following parameters:
@@ -201,8 +315,10 @@ This project is licensed under the **MIT License**. Feel free to use it in your 
 If you found this library useful:
 - Subscribe to my [YouTube Channel](https://www.youtube.com/@aKaReZa75).
 - Share this repository with others.
+- Give this repository and my other repositories a star.
+- Follow my [GitHub account](https://github.com/aKaReZa75).
 
-## Contact Us
+## Contact Me
 [![](https://img.shields.io/badge/E-Mail-yellow)](mailto:aKaReZa75@gmail.com)
 [![](https://img.shields.io/badge/You-Tube-red)](https://www.youtube.com/@aKaReZa75)
 [![](https://img.shields.io/badge/Linked-in-blue)](https://www.linkedin.com/in/akareza75)
