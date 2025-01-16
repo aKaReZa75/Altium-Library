@@ -140,6 +140,8 @@ The naming conventions are as follows:
 - **SMD Resistor package 0805**: 
   ```markdown
   Res_SMD_0805
+  
+> **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results. This helps avoid potential conflicts or misunderstandings when interpreting underscores.
 
 The overall structure of the aKaReZa library is as
 
