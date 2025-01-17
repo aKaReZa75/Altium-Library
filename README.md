@@ -123,7 +123,7 @@ The library structure consists of the following files:
 ## 🔍 Searching Components in the Library
 
 In this library, components are named using specific conventions to make searching and identifying them more efficient. 
-By following these structured naming conventions, users can quickly locate and understand each component within the library.
+By following these structured naming conventions, you can quickly locate and understand each component within the library.
 
 The naming conventions are as follows:
 1. **Component Type**: For example, `Cap` for capacitors.
