@@ -137,13 +137,13 @@ The naming conventions are as follows:
 
 ```plaintext
 📦 Component Examples
-├── Resistors
-│   └── SMD Resistors
-│       └── Res_SMD_0805 → SMD Resistor package 0805
 ├── Capacitors
 │   ├── Electrolytic Capacitors: 
 │       ├── Surface-mount (SMD)
 │           └── Cap_Elec_10u_25_SMD → 10µF, 25V SMD Electrolytic Capacitors
+├── Resistors
+│   └── SMD Resistors
+│       └── Res_SMD_0805 → SMD Resistor package 0805
 ├── Microcontrollers
 │   └── STM32F103C8T6: 
 │       └── IC_MCU_STM32F103C8T6 → 32bit ST Microcontroller, based on ARM Cortex-M3 core
@@ -151,7 +151,6 @@ The naming conventions are as follows:
 │   └── BJT Transistors
 │       ├── SMD
 │           └── Semi_BJT_2N2222_SMD → SMD Transistor 2N2222
-
 ```
 
 > **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results.
