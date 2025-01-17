@@ -7,7 +7,7 @@ This repository contains a comprehensive library package for **Altium Designer**
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
 - **Ready-to-Use**: Easily integrated with your Altium projects.
 - **Organized Structure**: Well-categorized components for quick search and reuse.
-- **Compact and Lightweight**: This library is compact and includes the most commonly used components, making it efficient and easy to work with.
+- **Compact and Lightweight**: This compact library includes the most commonly used components, making it efficient and easy to work with.
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
 ---
 
@@ -38,6 +38,9 @@ git clone https://github.com/aKaReZa75/Altium-Library
 
 ![Clone the Repository](Images/Step1.png)
 
+- Then, press Enter to start the cloning operation and wait for the success message to appear.
+  
+
 
 ### 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
@@ -56,10 +59,11 @@ To compile the library:
 ### 4. Verify Compilation
 After successful compilation:
 - The integrated library file will be saved in the **`Project Outputs for aKaReZa`** folder.
-- You can now see and use the library in the **Components** of Altium Designer.
-  
+
 ![Project Outputs for aKaReZa](Images/Step4.png)
 
+- You can now see and use the library in the **Components** of Altium Designer.
+  
 ![Components](Images/Step5.png)
 
 ---
