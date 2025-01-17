@@ -7,7 +7,7 @@ This repository contains a comprehensive library package for **Altium Designer**
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
 - **Ready-to-Use**: Easily integrated with your Altium projects.
 - **Organized Structure**: Well-categorized components for quick search and reuse.
-- **Compact and Lightweight**: This library is compact and includes most commonly used components, making it efficient and easy to work with.
+- **Compact and Lightweight**: This library is compact and includes the most commonly used components, making it efficient and easy to work with.
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
 ---
 
@@ -33,7 +33,7 @@ git clone https://github.com/aKaReZa75/Altium-Library
 ```
 - You can copy the above command by either:
 - Clicking on the **Copy** button on the right of the command.
-- Or selecting the command text manually and pressing **Ctrl + C** to copy.
+- Or select the command text manually and press **Ctrl + C** to copy.
 - To paste the command into your **Git Bash** terminal, use **Shift + Insert**.
 
 ![Clone the Repository](Images/Step1.png)
@@ -112,7 +112,7 @@ The library structure consists of the following files:
 - Includes transistors, diodes, optoelectronic components, LEDs, triacs, thyristors, and MOSFETs.
 
 ### 12. `Switch.SchLib`
-- Schematic symbols for switches, push-buttons, relays, and optocouplers.
+- Schematic symbols for switches, push buttons, relays, and optocouplers.
 
 ---
 
@@ -133,6 +133,9 @@ The naming conventions are as follows:
 
 ```plaintext
 📦 Component Examples
+├── Resistors
+│   └── SMD Resistors
+│       └── Res_SMD_0805 → SMD Resistor package 0805
 ├── Capacitors
 │   ├── Electrolytic Capacitors: 
 │       ├── Surface-mount (SMD)
@@ -144,9 +147,7 @@ The naming conventions are as follows:
 │   └── BJT Transistors
 │       ├── SMD
 │           └── Semi_BJT_2N2222_SMD → SMD Transistor 2N2222
-├── Resistors
-│   └── SMD Resistors
-│       └── Res_SMD_0805 → SMD Resistor package 0805
+
 ```
 
 > **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results.
@@ -244,8 +245,6 @@ Each component in the library includes the following parameters:
 | **Type**        | Specifies the type of component (e.g., NPN/PNP for transistors).                |
 | **Validation**  | Indicates whether the component has been tested (Valid/NT - Not Tested).        |
 | **Value**       | The key value or identifier (e.g., resistance for resistors, IC name).          |
-
-These parameters are essential for component selection and validation in PCB designs.
 
 > **Note**: For more information about **Inflow** and its usage, click [aKaReZa 29 - Q-A, The best way to manage Electronics Components Inventory](https://youtu.be/F4Bge-_tUWE).
 
