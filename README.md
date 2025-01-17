@@ -39,8 +39,8 @@ git clone https://github.com/aKaReZa75/Altium-Library
 ![Clone the Repository](Images/Step1.png)
 
 - Then, press Enter to start the cloning operation and wait for the success message to appear.
-  
 
+![Open the Library File](Images/Step9.png)
 
 ### 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
