@@ -157,6 +157,8 @@ The naming conventions are as follows:
 > **Note**: For better search results in Altium, it is recommended to use `*` instead of `_`. For example, searching for `Res*0805` will bring up all 0805 resistors, whereas searching for `Res_0805` may not return any results.
 > When using underscores (`_`), you need to enter the exact name of the component as it appears in the library. However, with an asterisk (`*`), you can search for partial matches, and Altium will find and display all similar components based on the entered terms.
 
+![Note1](Images/Note1.png)
+
 The overall structure of the aKaReZa library is as
 ```plaintext
 📦 aKaReZa Library Structure
