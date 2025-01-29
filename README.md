@@ -10,7 +10,7 @@ This repository contains a comprehensive library package for **Altium Designer**
 
 # 💻 How to Use
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 First, open **Git Bash** :
 -  Open the folder in **File Explorer** where you want the library to be stored.
 -  **Right-click** inside the folder and select the option **"Open Git Bash here"** to open **Git Bash** in that directory.
@@ -41,12 +41,12 @@ git clone https://github.com/aKaReZa75/Altium-Library
 
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
-## 2. Open the Library File
+### 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
 
 ![Open the Library File](Images/Step2.png)
 
-## 3. Compile the Library
+### 3. Compile the Library
 To compile the library:
 1. Open the **Projects** from the **Panels** menu.
 2. In the Projects panel, locate the file **`aKaReZa.LibPkg`**.
@@ -55,7 +55,7 @@ To compile the library:
 
 ![Compile the Library](Images/Step3.png)
 
-## 4. Verify Compilation
+### 4. Verify Compilation
 After successful compilation:
 - The integrated library file will be saved in the **`Project Outputs for aKaReZa`** folder.
 
