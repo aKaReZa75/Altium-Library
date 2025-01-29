@@ -1,16 +1,16 @@
 # aKaReZa Altium Designer Library
 This repository contains a comprehensive library package for **Altium Designer**, designed for my personal PCB design projects. It has been shared as a special gift for reaching 1,000 subscribers on my YouTube channel. 🎉
 
-## 📜 Features
+# 📜 Features
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
 - **Ready-to-Use**: Easily integrated with your Altium projects.
 - **Organized Structure**: Well-categorized components for quick search and reuse.
 - **Compact and Lightweight**: This compact library includes the most commonly used components, making it efficient and easy to work with.
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
 
-## 💻 How to Use
+# 💻 How to Use
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 First, open **Git Bash** :
 -  Open the folder in **File Explorer** where you want the library to be stored.
 -  **Right-click** inside the folder and select the option **"Open Git Bash here"** to open **Git Bash** in that directory.
@@ -41,12 +41,12 @@ git clone https://github.com/aKaReZa75/Altium-Library
 
 **Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
 
-### 2. Open the Library File
+## 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
 
 ![Open the Library File](Images/Step2.png)
 
-### 3. Compile the Library
+## 3. Compile the Library
 To compile the library:
 1. Open the **Projects** from the **Panels** menu.
 2. In the Projects panel, locate the file **`aKaReZa.LibPkg`**.
@@ -55,7 +55,7 @@ To compile the library:
 
 ![Compile the Library](Images/Step3.png)
 
-### 4. Verify Compilation
+## 4. Verify Compilation
 After successful compilation:
 - The integrated library file will be saved in the **`Project Outputs for aKaReZa`** folder.
 
@@ -66,59 +66,56 @@ After successful compilation:
 ![Components](Images/Step5.png)
 
 
-## 📂 Repository Contents
-
+# 📂 Repository Contents
 The library structure consists of the following files:
 
-### 1. `aKaReZa.LibPkg`
+## 1. `aKaReZa.LibPkg`
 - This is the main **integrated library package** file.
 - Used for compiling all symbols, footprints, and 3D models into a single file.
 - Once compiled, it generates an integrated library ready for use in Altium Designer.
 
-### 2. `BoxHeader.SchLib`
+## 2. `BoxHeader.SchLib`
 - Contains schematic symbols for **box header connectors**.
 - Includes various pin configurations such as 2x3, 2x5, and others.
 - This file also includes male and female header pins, as well as FPC connectors.
   
-### 3. `Capacitor.SchLib`
+## 3. `Capacitor.SchLib`
 - Includes schematic symbols for a wide range of capacitors.
 - Categories include ceramic, electrolytic, tantalum, and film capacitors.
 
-### 4. `Connector.SchLib`
+## 4. `Connector.SchLib`
 - Provides symbols for various types of connectors, including programmers, Arduino, power connectors, computer connectors, signal connectors, antenna connectors, and SIM card connectors.
 
-### 5. `FootPrintLib_X.PcbLib` (e.g., `FootPrintLib_1.PcbLib`)
+## 5. `FootPrintLib_X.PcbLib` (e.g., `FootPrintLib_1.PcbLib`)
 - Contains PCB footprints for different components.
 - Each file is categorized based on its component type or package size.
 
-### 6. `IC.SchLib`
+## 6. `IC.SchLib`
 - Includes schematic symbols for integrated circuits (ICs).
 - Examples: microcontrollers, regulators, and operational amplifiers.
 
-### 7. `Inductor.SchLib`
+## 7. `Inductor.SchLib`
 - Schematic symbols for inductors, including power and signal types.
 
-### 8. `ModSen.SchLib`
+## 8. `ModSen.SchLib`
 - Contains schematic symbols for various sensors, including temperature, light, and humidity sensors.
 - Includes communication modules such as WiFi, Bluetooth, GPS, GSM, LoRa, and display modules like seven-segment displays and LCDs.
 
-### 9. `Other.SchLib`
+## 9. `Other.SchLib`
 - Contains schematic symbols for motors, transformers, coil cores, heat sinks, batteries, and various electromechanical components.
 
-### 10. `Resistor.SchLib`
+## 10. `Resistor.SchLib`
 - Contains schematic symbols for resistors.
 - Includes standard resistors, arrays, and special-purpose types.
 
-### 11. `SemiConductor.SchLib`
+## 11. `SemiConductor.SchLib`
 - Includes transistors, diodes, optoelectronic components, LEDs, triacs, thyristors, and MOSFETs.
 
-### 12. `Switch.SchLib`
+## 12. `Switch.SchLib`
 - Schematic symbols for switches, push buttons, relays, and optocouplers.
 
----
 
-## 🔍 Searching Components in the Library
-
+# 🔍 Searching Components in the Library
 In this library, components are named using specific conventions to make searching and identifying them more efficient. 
 By following these structured naming conventions, you can quickly locate and understand each component within the library.
 
