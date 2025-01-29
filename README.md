@@ -230,10 +230,7 @@ The overall structure of the aKaReZa library is as
 
 By adhering to this convention, you can quickly locate any component while maintaining clarity and consistency in your designs.
 
----
-
-## 🔍 Component Parameters
-
+# 🔍 Component Parameters
 Each component in the library includes the following parameters:
 
 | **Parameter**   | **Description**                                                                 |
@@ -247,10 +244,7 @@ Each component in the library includes the following parameters:
 
 > **Note**: For more information about **Inflow** and its usage, click [aKaReZa 29 - Q-A, The best way to manage Electronics Components Inventory](https://youtu.be/F4Bge-_tUWE).
 
----
-
-## 🎥 Video Tutorials
-
+# 🎥 Video Tutorials
 For a complete video tutorial on how to use this library, visit my YouTube channel:  
 📺 [How to Use the aKaReZa Library](https://youtu.be/l-yOpVmeKFw)
 
@@ -269,9 +263,7 @@ Learn how to create your personal Altium Designer library through these videos:
    
 These tutorials cover everything you need to know about library creation and integration.
 
----
-
-## 🆕 Requesting New Components
+# 🆕 Requesting New Components
 To request a new component:
 - Go to the **Issues** section of this repository.
 - Create a new issue with the following details:
@@ -296,8 +288,6 @@ Additionally, you can include:
   Feel free to add any additional relevant information such as application notes, pinout diagrams, or other resources that may help in designing the schematic and footprint.
 
 Once the request is reviewed, it will be added to the library in future updates.
-
----
 
 # 🤝 Contributing to the Library
 If you want to update or modify the library:
