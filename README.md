@@ -69,49 +69,49 @@ After successful compilation:
 # 📂 Repository Contents
 The library structure consists of the following files:
 
-## 1. `aKaReZa.LibPkg`
+### 1. `aKaReZa.LibPkg`
 - This is the main **integrated library package** file.
 - Used for compiling all symbols, footprints, and 3D models into a single file.
 - Once compiled, it generates an integrated library ready for use in Altium Designer.
 
-## 2. `BoxHeader.SchLib`
+### 2. `BoxHeader.SchLib`
 - Contains schematic symbols for **box header connectors**.
 - Includes various pin configurations such as 2x3, 2x5, and others.
 - This file also includes male and female header pins, as well as FPC connectors.
   
-## 3. `Capacitor.SchLib`
+### 3. `Capacitor.SchLib`
 - Includes schematic symbols for a wide range of capacitors.
 - Categories include ceramic, electrolytic, tantalum, and film capacitors.
 
-## 4. `Connector.SchLib`
+### 4. `Connector.SchLib`
 - Provides symbols for various types of connectors, including programmers, Arduino, power connectors, computer connectors, signal connectors, antenna connectors, and SIM card connectors.
 
-## 5. `FootPrintLib_X.PcbLib` (e.g., `FootPrintLib_1.PcbLib`)
+### 5. `FootPrintLib_X.PcbLib` (e.g., `FootPrintLib_1.PcbLib`)
 - Contains PCB footprints for different components.
 - Each file is categorized based on its component type or package size.
 
-## 6. `IC.SchLib`
+### 6. `IC.SchLib`
 - Includes schematic symbols for integrated circuits (ICs).
 - Examples: microcontrollers, regulators, and operational amplifiers.
 
-## 7. `Inductor.SchLib`
+### 7. `Inductor.SchLib`
 - Schematic symbols for inductors, including power and signal types.
 
-## 8. `ModSen.SchLib`
+### 8. `ModSen.SchLib`
 - Contains schematic symbols for various sensors, including temperature, light, and humidity sensors.
 - Includes communication modules such as WiFi, Bluetooth, GPS, GSM, LoRa, and display modules like seven-segment displays and LCDs.
 
-## 9. `Other.SchLib`
+### 9. `Other.SchLib`
 - Contains schematic symbols for motors, transformers, coil cores, heat sinks, batteries, and various electromechanical components.
 
-## 10. `Resistor.SchLib`
+### 10. `Resistor.SchLib`
 - Contains schematic symbols for resistors.
 - Includes standard resistors, arrays, and special-purpose types.
 
-## 11. `SemiConductor.SchLib`
+### 11. `SemiConductor.SchLib`
 - Includes transistors, diodes, optoelectronic components, LEDs, triacs, thyristors, and MOSFETs.
 
-## 12. `Switch.SchLib`
+### 12. `Switch.SchLib`
 - Schematic symbols for switches, push buttons, relays, and optocouplers.
 
 
