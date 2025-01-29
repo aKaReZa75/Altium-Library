@@ -289,6 +289,11 @@ Additionally, you can include:
 
 Once the request is reviewed, it will be added to the library in future updates.
 
+**Tips**: While the examples provided above are in English, feel free to ask your questions in **Persian (فارسی)** as well. There is no difference in how they will be handled!  
+
+**Note:** Pages and interfaces may change over time, but the steps to create an issue generally remain the same.  
+
+
 # 🤝 Contributing to the Library
 If you want to update or modify the library:
 - Fork this repository.
