@@ -1,17 +1,14 @@
 # aKaReZa Altium Designer Library
 This repository contains a comprehensive library package for **Altium Designer**, designed for my personal PCB design projects. It has been shared as a special gift for reaching 1,000 subscribers on my YouTube channel. 🎉
 
----
-
 ## 📜 Features
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
 - **Ready-to-Use**: Easily integrated with your Altium projects.
 - **Organized Structure**: Well-categorized components for quick search and reuse.
 - **Compact and Lightweight**: This compact library includes the most commonly used components, making it efficient and easy to work with.
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
----
 
-## 🚀 How to Use
+## 💻 How to Use
 
 ### 1. Clone the Repository
 First, open **Git Bash** :
@@ -42,6 +39,8 @@ git clone https://github.com/aKaReZa75/Altium-Library
 
 ![Open the Library File](Images/Step9.png)
 
+**Note:** Please keep in mind that the numbers displayed in the image might vary when you perform the same actions. This is because repositories are continuously being updated and expanded. Nevertheless, the overall process remains unchanged.
+
 ### 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
 
@@ -65,8 +64,6 @@ After successful compilation:
 - You can now see and use the library in the **Components** of Altium Designer.
   
 ![Components](Images/Step5.png)
-
----
 
 
 ## 📂 Repository Contents
@@ -278,7 +275,6 @@ These tutorials cover everything you need to know about library creation and int
 ---
 
 ## 🆕 Requesting New Components
-
 To request a new component:
 - Go to the **Issues** section of this repository.
 - Create a new issue with the following details:
@@ -306,35 +302,29 @@ Once the request is reviewed, it will be added to the library in future updates.
 
 ---
 
-## 🔄 Contributing to the Library
-
+# 🤝 Contributing to the Library
 If you want to update or modify the library:
 - Fork this repository.
 - Make your changes in a new branch.
 - Submit a **Pull Request** with a detailed description of your changes.
 - Ensure your changes follow the library's structure and standards.
 
----
-
-## 🛠️ License
-
+# 📜 License
 This project is licensed under the GPL-3.0 License. This license grants you the freedom to use, modify, and distribute the project as long as you:
 - Credit the original authors: Give proper attribution to the original creators.
 - Disclose source code: If you distribute a modified version, you must make the source code available under the same GPL license.
 - Maintain the same license: When you distribute derivative works, they must be licensed under the GPL-3.0 too.
 - Feel free to use it in your projects, but make sure to comply with the terms of this license.
   
----
-
-## ⭐ Support Me
-
+#🌟 Support Me
 If you found this library useful:
 - Subscribe to my [YouTube Channel](https://www.youtube.com/@aKaReZa75).
 - Share this repository with others.
 - Give this repository and my other repositories a star.
 - Follow my [GitHub account](https://github.com/aKaReZa75).
-
-## Contact Me
-[![](https://img.shields.io/badge/E-Mail-yellow)](mailto:aKaReZa75@gmail.com)
-[![](https://img.shields.io/badge/You-Tube-red)](https://www.youtube.com/@aKaReZa75)
-[![](https://img.shields.io/badge/Linked-in-blue)](https://www.linkedin.com/in/akareza75)
+  
+# ✉️ Contact Me
+Feel free to reach out to me through any of the following platforms:
+- 📧 [Email: aKaReZa75@gmail.com](mailto:aKaReZa75@gmail.com)
+- 🎥 [YouTube: @aKaReZa75](https://www.youtube.com/@aKaReZa75)
+- 💼 [LinkedIn: @akareza75](https://www.linkedin.com/in/akareza75)
