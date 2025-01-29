@@ -230,7 +230,7 @@ The overall structure of the aKaReZa library is as
 
 By adhering to this convention, you can quickly locate any component while maintaining clarity and consistency in your designs.
 
-# 🔍 Component Parameters
+# 🛠 Component Parameters
 Each component in the library includes the following parameters:
 
 | **Parameter**   | **Description**                                                                 |
