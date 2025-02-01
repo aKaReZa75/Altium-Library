@@ -10,6 +10,19 @@ It has been shared as a special gift for reaching 1,000 subscribers on my YouTub
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
 
 # 💻 How to Use
+To use this library, follow these steps:
+1. **Clone the Repository:**  
+   -   Use **Git Bash** or **download the ZIP file** to get the repository on your computer.
+
+2. **Open the Library File:** 
+   -   **Open** the aKaReZa.LibPkg file in Altium Designer.
+
+3. **Compile the Library:**  
+   -   **Compile** the library in Altium Designer.
+
+4. **Verify Compilation:**  
+   -   **Ensure** the integrated library file is saved and accessible in Altium Designer.
+
 ## 1. Clone the Repository
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
