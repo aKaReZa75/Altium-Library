@@ -58,6 +58,8 @@ git clone https://github.com/aKaReZa75/Altium-Library
 > - **Version Control:** Using Git allows you to track changes and revert to previous versions.  
 > - **Team Collaboration:** If you are working on a project with a team, you can easily sync changes from team members and collaborate more efficiently.  
 
+---
+
 ### Download Zip
 If you prefer not to use Git Bash or the command line, you can download the repository directly from GitHub as a ZIP file.  
 Follow these steps:  
@@ -100,7 +102,7 @@ To compile the library:
 
 ![Compile the Library](Images/Step3.png)
 
-### 4. Verify Compilation
+## 4. Verify Compilation
 After successful compilation:
 - The integrated library file will be saved in the **`Project Outputs for aKaReZa`** folder.
 
