@@ -299,16 +299,16 @@ For a complete video tutorial on how to use this library, visit my YouTube chann
 📺 [How to Use the aKaReZa Library](https://youtu.be/l-yOpVmeKFw)
 
 Learn how to create your personal Altium Designer library through these videos:
-1. [aKaReZa 82 - PCB, Library - PART A](https://youtu.be/yt6wmXNhPHg)
+## 1. [aKaReZa 82 - PCB, Library - PART A](https://youtu.be/yt6wmXNhPHg)
    - First video in the series. Learn the tools for schematic and PCB design, creating integrated library projects, designing THT and SMD resistor symbols, adding 3D models, and compiling libraries.
    
-2. [aKaReZa 84 - PCB, Library - PART B](https://youtu.be/dTeTpMkixJI)
+## 2. [aKaReZa 84 - PCB, Library - PART B](https://youtu.be/dTeTpMkixJI)
    - Second video in the series. Covers schematic and footprint design for capacitors and inductors (THT, SMD, power, barrel), and using the Parameter Manager.
 
-3. [aKaReZa 85 - PCB, Library - PART C](https://youtu.be/aoqMTQX8EtM)
+## 3. [aKaReZa 85 - PCB, Library - PART C](https://youtu.be/aoqMTQX8EtM)
    - Third video in the series. Learn to design schematic symbols and footprints for diodes, transistors, ICs (THT, SMD), designing multi-part components, and understand pin types and configurations.
 
-4. [aKaReZa 86 - PCB, Library - PART D](https://youtu.be/wHq2v9WrjEQ)  
+## 4. [aKaReZa 86 - PCB, Library - PART D](https://youtu.be/wHq2v9WrjEQ)  
    - Final video. Learn to design for STM32 microcontroller, AMS1117 regulator, and LQFP-48 and SOT-223 packages. Includes using Footprint Wizards, setting reference points, and testing components.
    
 These tutorials cover everything you need to know about library creation and integration.
