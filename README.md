@@ -1,4 +1,4 @@
-# aKaReZa Altium Designer Library
+# 📚 aKaReZa Altium Designer Library
 This repository contains a comprehensive library package for **Altium Designer**, designed for my personal PCB design projects.  
 It has been shared as a special gift for reaching 1,000 subscribers on my YouTube channel. 🎉
 
