@@ -10,7 +10,7 @@ It has been shared as a special gift for reaching 1,000 subscribers on my YouTub
 - **Tested Components**: The majority of the components in this library have been tested in practical projects to ensure reliability and functionality. 
 
 # 💻 How to Use
-### 1. Clone the Repository
+## 1. Clone the Repository
 To access the repository files and save them on your computer, there are two methods available:
 1. **Using Git Bash and Cloning the Repository**
    - This method is more suitable for advanced users and those familiar with command-line tools.
@@ -20,7 +20,7 @@ To access the repository files and save them on your computer, there are two met
    - This method is simpler and suitable for users who are not comfortable with command-line tools.
    - Note that with this method, you will not automatically receive updates for the repository and will need to manually download any new updates.
 
-## Clone using the URL.
+### Clone using the URL.
 First, open **Git Bash** :
 -  Open the folder in **File Explorer** where you want the library to be stored.
 -  **Right-click** inside the folder and select the option **"Open Git Bash here"** to open **Git Bash** in that directory.
@@ -58,7 +58,7 @@ git clone https://github.com/aKaReZa75/Altium-Library
 > - **Version Control:** Using Git allows you to track changes and revert to previous versions.  
 > - **Team Collaboration:** If you are working on a project with a team, you can easily sync changes from team members and collaborate more efficiently.  
 
-## Download Zip
+### Download Zip
 If you prefer not to use Git Bash or the command line, you can download the repository directly from GitHub as a ZIP file.  
 Follow these steps:  
 1. Navigate to the GitHub repository page and Locate the Code button:
@@ -86,12 +86,12 @@ Follow these steps:
 >   If the repository is updated, you will need to download it again manually.  
 > - Ease of Use: This method is simpler and suitable for users who are not comfortable with Git or command-line tools.
 
-### 2. Open the Library File
+## 2. Open the Library File
 Open the **`aKaReZa.LibPkg`** file in **Altium Designer**.
 
 ![Open the Library File](Images/Step2.png)
 
-### 3. Compile the Library
+## 3. Compile the Library
 To compile the library:
 1. Open the **Projects** from the **Panels** menu.
 2. In the Projects panel, locate the file **`aKaReZa.LibPkg`**.
