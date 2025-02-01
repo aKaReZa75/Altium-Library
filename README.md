@@ -191,7 +191,7 @@ The naming conventions are as follows:
 ![Note0](Images/Note0.png)
 
 ```plaintext
-📦 Component Examples
+📁 Component Examples
 ├── Capacitors
 │   ├── Electrolytic Capacitors: 
 │       ├── Surface-mount (SMD)
@@ -217,7 +217,7 @@ The naming conventions are as follows:
 
 The overall structure of the aKaReZa library is as
 ```plaintext
-📦 aKaReZa Library Structure
+📁 aKaReZa Library Structure
 ├── Capacitors
 │   ├── Electrolytic Capacitors: `Cap_Elec`
 │   ├── Bipolar Capacitors: `Cap_Bipolar`
