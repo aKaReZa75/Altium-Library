@@ -135,6 +135,9 @@ After successful compilation:
 ![Extera Files](Images/Step13.png)
 
 - By completing this step, you will only see the compiled aKaReZa library in the **Components** panel.
+
+> [!TIP]
+> The compiled library **aKaReZa.LibPkg** remains accessible in the Components panel even after closing the **aKaReZa.LibPkg** project.
   
 ![Components](Images/Step5.png)
 
