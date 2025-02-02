@@ -121,10 +121,26 @@ After successful compilation:
 
 ![Project Outputs for aKaReZa](Images/Step4.png)
 
-- You can now see and use the library in the **Components** of Altium Designer.
+- Now, right-click on the aKaReZa.LibPkg file in the Projects panel and select Close Project.
+
+![Close the aKaReZa Project](Images/Step12.png)
+
+> [!IMPORTANT]
+> This step closes the library project, ensuring that the integrated library file is ready for use and any subsequent modifications are avoided.  
+> This is a crucial step before using the library in your designs.  
+> Additionally, this step ensures that no extra files are displayed in the Components panel and only the compiled library file is visible.
+
+- If this step is not done, you might see additional files in the Components panel, which can be confusing and undesirable:
+
+![Extera Files](Images/Step13.png)
+
+- By completing this step, you will only see the compiled aKaReZa library in the **Components** panel.
   
 ![Components](Images/Step5.png)
 
+> [!NOTE]
+> You may see additional libraries in the Components panel, depending on how many libraries you have previously installed.  
+> However, if you follow the steps above, my library will only appear as a single file named **aKaReZa.IntLib** in this panel.
 
 # 📂 Repository Contents
 The library structure consists of the following files:
