@@ -2,8 +2,8 @@
 This repository contains a comprehensive library package for **Altium Designer**, designed for my personal PCB design projects.  
 It has been shared as a special gift for reaching 1,000 subscribers on my YouTube channel. 🎉
 
-> [!IMPORTANT]
-> It's very, very important that you read every single word of this document line by line and follow the instructions.
+> [!CAUTION]
+> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
 # 📜 Features
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
