@@ -5,6 +5,12 @@ It has been shared as a special gift for reaching 1,000 subscribers on my YouTub
 > [!CAUTION]
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
+> [!TIP]
+> If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions 
+> everything you need is clearly explained in this video:  
+> [aKaReZa 95 - Programming, Git - PART B](https://youtu.be/zYiUItVFRqQ)   
+> Make sure to check it out!
+
 # 📜 Features
 - **High-Quality Components**: Includes optimized symbols, footprints, and 3D models for various designs.
 - **Ready-to-Use**: Easily integrated with your Altium projects.
