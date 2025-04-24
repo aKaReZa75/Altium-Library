@@ -2,9 +2,6 @@
 This repository contains a comprehensive library package for **Altium Designer**, designed for my personal PCB design projects.  
 It has been shared as a special gift for reaching 1,000 subscribers on my YouTube channel. 🎉
 
-> [!CAUTION]
-> It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
-
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
@@ -42,6 +39,17 @@ It has been shared as a special gift for reaching 1,000 subscribers on my YouTub
       </a>
     </td>
   </tr>
+
+  </td>
+  </tr>
+  <tr>
+  <td colspan="3">
+
+  > [!CAUTION]
+  > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
+      
+  </td>
+  </tr>  
   
 </table>
 
