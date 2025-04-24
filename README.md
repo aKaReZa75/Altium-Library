@@ -5,6 +5,26 @@ It has been shared as a special gift for reaching 1,000 subscribers on my YouTub
 > [!CAUTION]
 > It is absolutely critical that you carefully read every single word of this document, line by line, to ensure you don't miss any details. Nothing can be overlooked.
 
+<table style="border-collapse: collapse;">
+  <tr>
+    <td valign="top" style="padding: 0 10px;">
+      <h3 style="margin: 0;">
+        <a href="https://youtu.be/l-yOpVmeKFw">aKaReZa 87 – Altium Library</a>
+      </h3>
+      <p style="margin: 8px 0 0;">
+        In this video, you’ll learn about the structure of the library, how to find specific components, the installation process, and how to request new parts that are not yet available.
+      </p>
+    </td>
+    <td width="360" valign="top">
+      <a href="https://youtu.be/l-yOpVmeKFw">
+        <img src="https://img.youtube.com/vi/l-yOpVmeKFw/maxresdefault.jpg"
+             width="360"
+             alt="aKaReZa 87 – Altium Library Thumbnail"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
 > [!TIP]
 > If you're looking to better understand how to navigate and use my GitHub repositories — including exploring their structure, downloading or cloning projects, submitting issues, and asking questions 
 > everything you need is clearly explained in this video:  
@@ -336,9 +356,6 @@ Each component in the library includes the following parameters:
 > For more information about **Inflow** and its usage, click [aKaReZa 29 - Q-A, The best way to manage Electronics Components Inventory](https://youtu.be/F4Bge-_tUWE).
 
 # 🎥 Video Tutorials
-
-For a complete video tutorial on how to use this library, visit my YouTube channel:  
-📺 [How to Use the aKaReZa Library](https://youtu.be/l-yOpVmeKFw)
 
 Learn how to create your personal Altium Designer library through these videos:
 
