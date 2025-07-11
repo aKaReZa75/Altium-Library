@@ -382,6 +382,29 @@ Each component in the library includes the following parameters:
 
 Learn how to create your personal Altium Designer library through these videos:
 
+```plaintext
+PCB, Library
+   ├── [aKaReZa 82 - PCB, Library - PART A]
+   │   ├─ Resistors — Schematic + footprints for THT and SMD.
+   │   ├─ Library Setup — Project creation, compiling, Off Grid fix.
+   │   └─ Reference — Designators, names, parameters, 3D models.
+   │
+   ├── [aKaReZa 84 - PCB, Library - PART B]
+   │   ├─ Capacitors — Polarized/non-polarized THT and SMD.
+   │   └─ Inductors — Power and drum types with footprint design.
+   │
+   ├── [aKaReZa 85 - PCB, Library - PART C]
+   │   ├─ Components — Diodes, transistors, ICs, op-amps.
+   │   ├─ Footprints — THT, SMD for various devices.
+   │   └─ Pin Config — Actual vs Functional + multi-part symbols.
+   │
+   └── [aKaReZa 86 - PCB, Library - PART D]
+       ├─ Devices — STM32, AMS1117 schematics and footprints.
+       ├─ Wizards — Altium + IPC Footprint creation tools.
+       ├─ Standards — Reference point, layers, drilling, validation.
+       └─ Resources — SnapEDA, SamacSys, component imports.
+```
+
 <table style="border-collapse: collapse;">
   <tr>
     <td valign="top" style="padding: 0 10px;">
